@@ -1,0 +1,43 @@
+{
+  "status": "passed",
+  "browser": "156.0.8078.73",
+  "openedFromExtractedZip": true,
+  "offline": true,
+  "initialGraph": {
+    "nodes": 98,
+    "edges": 109
+  },
+  "originalNodeAndEdgeProjectionExact": true,
+  "sharedGraphMappingCheckedOn": [
+    "Wang",
+    "Sun"
+  ],
+  "originalTabsLabelsCountersAndFilters": true,
+  "originalPaletteAndOverviewRules": true,
+  "claimsEqualToSource": true,
+  "evidenceSpansRendered": 38,
+  "selectionExpansionSearchAndFilterBehavior": true,
+  "pdfPreviewAndPngDownload": true,
+  "serviceActionsVisiblyDisabled": true,
+  "runHistoryLimitedToPackagedRun": true,
+  "narrowViewportNoHorizontalOverflow": true,
+  "pageErrors": [],
+  "externalRequests": [],
+  "ioArchiveUnchanged": true,
+  "postCleanupCheck": {
+    "status": "passed",
+    "removed": [
+      "offline_source/",
+      "TEAM_REVIEW.md"
+    ],
+    "offlineLoad": true,
+    "nodes": 98,
+    "edges": 109,
+    "evidenceAndPdfPreview": true,
+    "viewerCodeUnchanged": true,
+    "inputOutputArchiveUnchanged": true,
+    "externalRequests": [],
+    "pageErrors": [],
+    "testedArchiveSha256": "56046b0154dfb9b85e0dbbf1dbe9f9f7686f59f0130de91f2f8725a1db504ded"
+  }
+}

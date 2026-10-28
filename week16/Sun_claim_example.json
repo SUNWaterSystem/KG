@@ -1,0 +1,93 @@
+{
+  "kind": "relation",
+  "subject": {
+    "name": "crystalline silica",
+    "entity_type": "Material"
+  },
+  "predicate": "dissolvesIn",
+  "object": {
+    "name": "sodium hydroxide solution",
+    "entity_type": "Solvent"
+  },
+  "quantity": null,
+  "conditions": [
+    {
+      "kind": "study_context",
+      "raw": "simulation",
+      "value": null,
+      "unit": null,
+      "state": "found"
+    },
+    {
+      "kind": "temperature",
+      "raw": "1500 K selected for accelerating the simulations",
+      "value": null,
+      "unit": "K",
+      "state": "found"
+    }
+  ],
+  "method": "reactive molecular dynamics simulations",
+  "knowledge_type": "reported_observation",
+  "modality": "asserted",
+  "statement": "In the reactive molecular dynamics study, crystalline silica was dissolved in sodium hydroxide solution after establishing the elevated-temperature acceleration scheme.",
+  "evidence": [
+    {
+      "source_span_id": "E-acf51d1d61e5ae46b47a",
+      "supports": "Explicitly states that sodium hydroxide solution was employed to dissolve crystalline and amorphous silica after selecting 1500 K for acceleration."
+    },
+    {
+      "source_span_id": "E-b2a4929b37e240c08103",
+      "supports": "The final sentence identifies reactive MD simulations as the authors' own-study method."
+    }
+  ],
+  "issues": [],
+  "claim_id": "claim:d21db3b7e3e5f79065e4d3b3d894",
+  "validation": {
+    "structure": "pass",
+    "evidence_location": "pass",
+    "blocking_errors": [],
+    "warnings": [],
+    "semantic_support": "ai_extraction_not_human_reviewed"
+  },
+  "demo_eligible": true,
+  "review_status": "pending",
+  "publication_status": "demo_only",
+  "evidence_records": [
+    {
+      "source_span_id": "E-acf51d1d61e5ae46b47a",
+      "document_version": "7c0c156d1614995b11ea0f99539f6e6b455f5bfafbd215e729ed8064f1f09a9b",
+      "parser_id": "347a80a218598281",
+      "page": 2,
+      "bbox": [
+        297.638,
+        35,
+        570.276,
+        754.362
+      ],
+      "column": 2,
+      "start_char": 2934,
+      "end_char": 4621,
+      "text": "investigate the atomic scale dissolution kinetics of silica.\nTo achieve better temporal sampling, we implemented an\nelevated temperature strategy in the canonical ensemble\n(NVT) to accelerate the simulation. However, before\nproceeding with this approach, it was crucial to confirm\nthat the reaction pathways at elevated temperatures were\ncomparable to those at room temperature. To address this,\nwe utilized well-tempered metadynamics (WTMetaD)\nto compare the reaction pathways of silica dissolution\nat different temperatures (300, 700, 1000, and 1500 K).\nThrough the free-energy reconstruction provided by\nWTMetaD, we determined that 1500 K was suitable for\naccelerating the simulations while maintaining a dis-\nsolution process consistent with that observed at room\ntemperature.\nOnce the acceleration scheme was established, we\nemployed a sodium hydroxide solution as an electrolyte to\ndissolve both crystalline and amorphous silica. Structural\nparameters, such as bond lengths/angles and coordina-\ntion distributions of silicon and sodium, were statistically\nanalyzed to investigate the phase assemblage of the MD\nmodels at elevated temperatures (700, 1000, and 1500 K).\nMoreover, we delved into the details of surface disso-\nlution kinetics to quantify the stepwise transformation\nrates from fully linked SiO networks (Q4) to aqueous\n4\nspecies (Q0) in both crystalline and amorphous silica.\nAdditionally, we explored the dissolution reactions at the\nsilica surface by tracing the kinetic process of hydrogen-\ncontaining characteristic structures (Si–O–H bonds, water\n−\nmolecules, and OH ). Our findings offer quantitative evi-\ndence regarding the atomic scale surface configurations\n",
+      "role": "body",
+      "kind": "text"
+    },
+    {
+      "source_span_id": "E-b2a4929b37e240c08103",
+      "document_version": "7c0c156d1614995b11ea0f99539f6e6b455f5bfafbd215e729ed8064f1f09a9b",
+      "parser_id": "347a80a218598281",
+      "page": 2,
+      "bbox": [
+        28,
+        35,
+        297.638,
+        754.362
+      ],
+      "column": 1,
+      "start_char": 1642,
+      "end_char": 2933,
+      "text": "cial interaction between silicate and electrolyte solutions.\nThe findings of this study reveal that the silica sur-\nface follows a stepwise dissolution mechanism, involv-\ning the continuous breaking of Si–O–Si bonds on the\nsolid surface. In alkaline electrolyte solutions, silicon\natoms on the surface often adopt a temporary pentacoor-\n−\ndinate structure with OH ions, facilitating the rupture\nof Si–O–Si bonds. However, due to the high energy bar-\nrier associated with silica dissolution, conventional direct\ndissolution simulations are typically limited by their rare\nevent sampling nature. Enhanced methods, such as meta-\ndynamics, have been employed to improve the sampling\nefficiency of rare dissolution events in silica. Furthermore,\nthe kinetic Monte Carlo method has been proposed to\nstudy the long-term dissolution process of silica, enabling\nkinetic sampling across multiple timescales.19\nAlthough significant progress has been made in study-\ning the dissolution kinetics of silica at the atomic scale,\nthere are still unanswered questions regarding the quan-\ntitative relationship between dissolution kinetics and\nsurface reactions, as well as the differences in dissolution\nbehavior between crystalline and amorphous silica. In\nthis study, we employed reactive MD simulations to",
+      "role": "body",
+      "kind": "text"
+    }
+  ]
+}
